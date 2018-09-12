@@ -252,9 +252,6 @@ md-tab-content {
   font-size: 1rem;
   cursor: pointer; }
 
-.certs_links:hover {
-  color: black; }
-
 .skills_section {
   background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("../../media/images/skills_background.jpg");
   background-repeat: no-repeat;

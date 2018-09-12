@@ -12,7 +12,6 @@ Error: Undefined variable: "$main_white".
 12:   font-size: 1rem;
 13:   cursor: pointer;
 14: }
-15: 
 
 Backtrace:
 scss/certificates.scss:10
@@ -69,4 +68,4 @@ scss/certificates.scss:10
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main_white\".\A         on line 10 of scss/certificates.scss\A \A 5: .certs-links-list{\A 6:   list-style: none;\A 7: }\A 8: \A 9: .certs_links{\A 10:   color: $main_white;\A 11:   font-weight: 600;\A 12:   font-size: 1rem;\A 13:   cursor: pointer;\A 14: }\A 15: "; }
+  content: "Error: Undefined variable: \"$main_white\".\A         on line 10 of scss/certificates.scss\A \A 5: .certs-links-list{\A 6:   list-style: none;\A 7: }\A 8: \A 9: .certs_links{\A 10:   color: $main_white;\A 11:   font-weight: 600;\A 12:   font-size: 1rem;\A 13:   cursor: pointer;\A 14: }"; }

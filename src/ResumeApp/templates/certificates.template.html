@@ -3,13 +3,11 @@
     <h1>Certificates</h1>
     <hr class="white">
   </div>
-  <div class="section_content certificates_section margin-80">
-    <ul class="certs-links-list">
-      <li ng-repeat="certificate in certificates">
+  <div class="section_content certificates_section margin-120">
+      <p ng-repeat="certificate in certificates">
         <a href="{{certificate.cert_link}}" class="certs_links" target="_blank">{{certificate.name}}</a>
          offered by {{certificate.offered_by}}
          on {{certificate.place}}. Certificate issued on {{certificate.issued}}.
-      </li>
-    </ul>
+      </p>
   </div>
 </div>
