@@ -2,7 +2,7 @@
   'use strict';
 
   angular.module('ResumeApp',['ngMaterial', 'ngMessages'])
-  .constant('ApiPath', '../../../../libs/json/jlresumeinfo.json')
+  .constant('ApiPath', '../../../jlresumeinfo.json')
   .controller('ResumeAppController', ResumeAppController)
   .controller('RecommendationsController', RecommendationsController)
   .controller('SkillsController', SkillsController)
