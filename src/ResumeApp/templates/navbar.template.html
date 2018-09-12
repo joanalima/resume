@@ -1,0 +1,13 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#"><span class="color-letter">J</span>oana <span class="color-letter">L</span>ima</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav" ng-controller="headerCtrl">
+    <ul class="navbar-nav">
+      <li class="nav-item active" ng-repeat="x in ['about','education','experience','certificates','skills','recommendations']">
+        <a class="nav-link nav-item" ng-click="gotoAnchor(x)">{{x}}<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>

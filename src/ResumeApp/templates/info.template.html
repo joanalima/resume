@@ -1,0 +1,27 @@
+<div class="row resume_section pink_section" id="info">
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+    <img id="info_myphoto" src="media/images/Joana.png" alt="" class="img-responsive">
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+    <h1 id="info_myname">{{info.first_name}} {{info.last_name}}</h1>
+    <div class="row">
+      <div class="col-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 info_style">
+        <span class="info_span">DOB:</span> {{info.dob}} <br>
+        <span class="info_span">Resident in:</span> {{info.residence}} <br>
+        <span class="info_span">Languages:</span> {{info.languages}}
+      </div>
+      <div class="col-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 info_style">
+        <span class="info_span">Contacts</span><br>
+        {{info.email}} <br>
+        {{info.phone_number}}
+      </div>
+    </div>
+    <div class="row">
+      <div id="info_links" class="col-12 info_style">
+        <span class="info_span">Check my </span>
+        <span><a href="{{info.links.linkedin}}" target="_blank" class="info_links">Linkedin</a></span> &
+        <span><a href="{{info.links.portfolio}}" target="_blank" class="info_links">Portfolio</a></span>
+      </div>
+    </div>
+  </div>
+</div>

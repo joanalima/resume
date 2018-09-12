@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900");
+html, body {
+  font-family: "Saira Extra Condensed" !important;
+  width: 100%; }
+
+body {
+  padding-top: 56px; }
+
+nav {
+  background-color: #ffffff; }
+
+.color-letter {
+  color: #D88A98;
+  font-weight: 600; }
+
+.nav-item a::first-letter {
+  text-transform: uppercase; }
+
+.resume_section {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: #ffffff; }
+
+.pink_section {
+  background-color: #D88A98;
+  color: #ffffff;
+  font-weight: 300; }
+
+.section_title {
+  width: 100%;
+  text-align: center; }
+  .section_title hr {
+    max-width: 300px;
+    border: 3.5px solid;
+    border-radius: 40px; }
+  .section_title hr.pink {
+    border-color: #D88A98; }
+  .section_title hr.white {
+    border-color: #ffffff; }
+
+.section_content {
+  width: 100%;
+  text-align: justify; }
+
+.margin-120 {
+  margin: 0px 120px; }
+
+.margin-80 {
+  margin: 0px 80px; }
+
+.margin-40 {
+  margin: 0px 40px; }
+
+ul.inline-icons {
+  font-size: 3rem;
+  text-align: center; }
+  ul.inline-icons li.icons {
+    font-size: 3.5rem;
+    list-style-type: none;
+    padding: 0px 10px; }
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #D88A98;
+  font-size: 1.4rem; }
+
+/*# sourceMappingURL=general.css.map */

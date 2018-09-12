@@ -1,0 +1,15 @@
+<div class="row resume_section pink_section" id="section-certificates">
+  <div class="section_title">
+    <h1>Certificates</h1>
+    <hr class="white">
+  </div>
+  <div class="section_content certificates_section margin-80">
+    <ul>
+      <li ng-repeat="certificate in certificates">
+        <a href="{{certificate.cert_link}}" class="certs_links" target="_blank">{{certificate.name}}</a>
+         offered by {{certificate.offered_by}}
+         on {{certificate.place}}. Certificate issued on {{certificate.issued}}.
+      </li>
+    </ul>
+  </div>
+</div>

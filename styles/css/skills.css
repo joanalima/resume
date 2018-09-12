@@ -1,0 +1,20 @@
+.skills_section {
+  background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("../../media/images/skills_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.skills_content {
+  text-align: center; }
+
+ul.inline-icons {
+  font-size: 3rem;
+  text-align: center; }
+  ul.inline-icons li.icons {
+    font-size: 3.5rem;
+    list-style-type: none;
+    padding: 0px 10px; }
+
+ul.no-style {
+  list-style: none; }
+
+/*# sourceMappingURL=skills.css.map */

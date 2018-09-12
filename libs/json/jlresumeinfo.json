@@ -1,0 +1,166 @@
+{
+   "my_info":{
+      "first_name":"Joana",
+      "last_name":"Lima",
+      "dob":"13 Feb 1991",
+      "residence":"Zug, Switzerland",
+      "languages":"Portuguese & English",
+      "email":"joanaduartelima @gmail.com",
+      "phone_number":"+353873999477",
+      "links":{
+        "linkedin":"https://www.linkedin.com/in/joana-lima-2b5aa187/",
+        "portfolio":"https://joanalima.github.io/portfolio/"
+      }
+
+   },
+   "about_section":{
+     "p1":"I’m an ambitious problem solver with passion for web-design and who would like to join a team of like-minded developers. I have a keen interest in technology, user interface and user experience and I'm continually evaluating and upgrading my skills so I can stay at the cutting edge of web-development. I always take responsibility of my own personal development and I always try to find logical and innovative solutions.",
+     "p2":"The languages I love and I am more comfortable with are HTML5, CSS3, JavaScript, PHP and Java but I’m always ready to learn new languages and technologies. Recently I did a Ruby on Rails Coursera course.",
+     "p3":"As a person I see myself with a very good sense of humour and easy to get along. I like to spend time with my friends, travel, watch movies, watch football, play volleyball, dance, listen to music and cook!"
+   },
+   "quote_section":{
+      "phrase":"Be yourself, everyone else is already taken.",
+      "author":"Oscar Wilde"
+   },
+   "experience_section":[
+      {
+         "id":"se_openet",
+         "position":"Software Engineer I",
+         "timeline":"October 2016 - June 2018",
+         "company":"Openet",
+         "company_link":"https://www.openet.com/",
+         "internal_positions":[
+            {
+               "pos_name":"Software Engineer I",
+               "timeline":"02/2017 - 06/2018",
+               "description":["Joined the Engineering department","Worked on multiple projects (as backend and front-end developer and tester) using Java, AngularJS, Angular Material, HTML, CSS, Javascript, Github, JIRA.","Use Agile, build system components, create automated tests using ATF, Selenium and write documentation"]
+            },
+            {
+               "pos_name":"Graduate",
+               "timeline":"10/2016 - 01/2017",
+               "description":["Joined Openet for the Graduate Programme","Training and 4 weeks rotation in each of the tech department"]
+            }
+         ]
+      },
+      {
+         "id":"webdev_delta",
+         "position":"Web-Developer",
+         "timeline":"October 2015 - June 2016",
+         "company":"Delta Soluções",
+         "company_link":"http://www.deltasolucoes.com/",
+         "internal_positions":[
+            {
+               "pos_name":"Web Developer - Internship",
+               "timeline":"10/2015 - 06/2016",
+               "description":["Follow the Senior Project Manager to all the client meeings to","Define the project and time esimates","Show the project progress and get client feedback","Show and deliver the finalised projects","Development and maintenance of WordPress web-sites using Beaver Builder, PHP, Javascript, HTML5, CSS3, SCSS and MySQL","Development and maintenance of Prestashop web-site."]
+            }
+         ]
+      }
+   ],
+   "education_section":{
+      "institute":"Faculty of Sciences - Lisbon University",
+      "link":"https://ciencias.ulisboa.pt/en",
+      "degree":"Information Technology",
+      "timeline":"June 2016",
+      "technologies":"C, Java, Python, HTML, CSS, PHP, Javascript and MYSQL"
+   },
+   "certificates_section":[
+      {
+         "name":"Rails with Active Record and Action Pack",
+         "offered_by":"Universidade Johns Hopkins",
+         "place":"Coursera",
+         "issued":"September 16, 2017",
+         "cert_link":"https://www.coursera.org/account/accomplishments/certificate/29E4QSZ34TTH"
+      },
+      {
+         "name":"Ruby on Rails: An Introduction",
+         "offered_by":"Universidade Johns Hopkins",
+         "place":"Coursera",
+         "issued":"July 25, 2017",
+         "cert_link":"https://www.coursera.org/account/accomplishments/verify/MLGKDN5MVRZ3"
+      },
+      {
+         "name":"Advanced Styling with Responsive Design",
+         "offered_by":"University of Michigan",
+         "place":"Coursera",
+         "issued":"April 16, 2016",
+         "cert_link":"https://www.coursera.org/account/accomplishments/certificate/KDGHKPYBSKXV"
+      },
+      {
+         "name":"Interactivity with JavaScript",
+         "offered_by":"University of Michigan",
+         "place":"Coursera",
+         "issued":"January 18, 2016",
+         "cert_link":"https://www.coursera.org/account/accomplishments/verify/MED9CDKKGYP4"
+      },
+      {
+         "name":"Introduction to CSS3",
+         "offered_by":"Universidade de Michigan",
+         "place":"Coursera",
+         "issued":"November 17, 2015",
+         "cert_link":"https://www.coursera.org/account/accomplishments/verify/YAR6YL9BPLAV"
+      },
+      {
+         "name":"Introduction to HTML5",
+         "offered_by":"University of Michigan",
+         "place":"Coursera",
+         "issued":"October 6, 2015",
+         "cert_link":"https://www.coursera.org/account/accomplishments/verify/HF8F4YQJR28J"
+      }
+   ],
+   "skills_section":{
+     "icons":[
+       "devicon-html5-plain-wordmark",
+       "devicon-css3-plain-wordmark",
+       "devicon-javascript-plain",
+       "devicon-angularjs-plain",
+       "devicon-sass-original",
+       "devicon-bootstrap-plain-wordmark",
+       "devicon-wordpress-plain-wordmark",
+       "devicon-rails-plain-wordmark",
+       "devicon-php-plain",
+       "devicon-java-plain-wordmark",
+       "devicon-bitbucket-plain-wordmark",
+       "devicon-github-plain-wordmark",
+       "devicon-mysql-plain-wordmark",
+       "devicon-python-plain-wordmark"
+     ],
+      "other_tools":[
+         "Figma",
+         "InvisionApp"
+      ],
+      "ides":["Eclipse", "PhpStorm"],
+      "workflow":[
+         "Mobile-First, Responsive Design",
+         "Browser Testing & Debugging",
+         "Agile Development"
+      ],
+      "text_editors":["Atom", "SublimeText", "Brackets"]
+   },
+   "recommendations_section":[
+      {
+         "doc_link":"../../media/docs/letters/RecomLetterRui",
+         "issued_by":"Rui Pinto",
+         "company":"Delta Soluções",
+         "position":"Business Executive"
+      },
+      {
+         "doc_link":"../../media/docs/letters/RecomLetterJohan",
+         "issued_by":"Johan Pieterson",
+         "company":"Openet",
+         "position":"Lead Engineer"
+      },
+      {
+         "doc_link":"../../media/docs/letters/RecomLetterBogusia",
+         "issued_by":"Bogusia Balska",
+         "company":"Openet",
+         "position":"ex-Talent & Operations Specialist"
+      },
+      {
+         "doc_link":"../../media/docs/letters/RecomLetterGeomar",
+         "issued_by":"Geomar Muñoz" ,
+         "company":"Openet",
+         "position":"UX Engineer | UI Designer"
+      }
+   ]
+}

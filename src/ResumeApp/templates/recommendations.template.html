@@ -1,0 +1,12 @@
+<div class="row resume_section" ng-controller="RecommendationsController as recomCtrl" id="section-recommendations">
+  <div class="section_title">
+    <h1>Recommendations</h1>
+    <hr class="pink">
+  </div>
+  <div class="section_content margin-80 recom-section">
+    <p ng-repeat="recommendation in recomCtrl.recommendations">
+      <a href="{{recommendation.doc_link}}" target="_blank" class="rec-info">Recommendation</a>
+       from <span class="rec-info">{{recommendation.issued_by}}</span>, {{recommendation.position}} at <span class="rec-info">{{recommendation.company}}</span>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+<div class="row resume_section skills_section" ng-controller="SkillsController as skillCtrl" id="section-skills">
+  <div class="section_title">
+    <h1>Skills</h1>
+    <hr class="pink">
+  </div>
+  <div class="section_content skills_content">
+    <ul class="list-inline inline-icons">
+      <li ng-repeat="icon in skillCtrl.skills.icons" class="list-inline-item icons">
+        <i class="{{icon}} colored"></i>
+      </li>
+    </ul>
+    <div class="row" style="width: 100%">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <h4>Other Tools</h4>
+        <span ng-repeat="tool in skillCtrl.skills.other_tools">{{tool}}<br></span>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <h4>IDEs</h4>
+        <span ng-repeat="tool in skillCtrl.skills.ides">{{tool}}<br></span>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <h4>Workflow</h4>
+        <span ng-repeat="tool in skillCtrl.skills.workflow">{{tool}}<br></span>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <h4>Text Editors</h4>
+        <span ng-repeat="tool in skillCtrl.skills.text_editors">{{tool}}<br></span>
+      </div>
+    </div>
+  </div>
+</div>

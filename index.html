@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="ResumeApp">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joana Lima | CV</title>
+
+    <link rel="stylesheet" href="styles/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/vendors/angular-material.min.css">
+    <link rel="stylesheet" href="styles/vendors/devicon-master/devicon.min.css">
+    <link rel="stylesheet" href="styles/vendors/fontawesome/css/all.css">
+    <link rel="stylesheet" href="styles/css/styles.css">
+
+  </head>
+  <body>
+
+    <div class="container-fluid" ng-controller="ResumeAppController">
+      
+        <resume-navbar></resume-navbar>
+
+        <info-section></info-section>
+
+        <about-section></about-section>
+
+        <quote-section></quote-section>
+
+        <education-section></education-section>
+
+        <experience-section></experience-section>
+
+        <certificate-section></certificate-section>
+
+        <skill-section></skill-section>
+
+        <recommendation-section></recommendation-section>
+
+    </div>
+
+    <resume-footer></resume-footer>
+
+    <script type="text/javascript" src="libs/jquery/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="libs/popper/popper.min.js"></script>
+    <script type="text/javascript" src="libs/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs/angular/angular.min.js"></script>
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script type="text/javascript" src="libs/angular-material/angular-animate.min.js"></script>
+    <script type="text/javascript" src="libs/angular-material/angular-aria.min.js"></script>
+    <script type="text/javascript" src="libs/angular-material/angular-messages.min.js"></script>
+
+    <!-- Angular Material Library -->
+    <script type="text/javascript" src="libs/angular-material/angular-material.min.js"></script>
+
+    <!-- Resume App -->
+
+    <!-- Modules -->
+    <script type="text/javascript" src="src/ResumeApp/modules/ResumeApp.module.js"></script>
+
+    <!-- Controllers -->
+    <script type="text/javascript" src="src/ResumeApp/controllers/ResumeApp.controller.js"></script>
+
+    <!-- Directives -->
+    <script type="text/javascript"src="src/ResumeApp/directives/ResumeApp.directives.js"></script>
+
+  </body>
+</html>

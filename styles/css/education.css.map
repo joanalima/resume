@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAkB;EAChB,SAAS,EAAE,MAAM;;AAGnB,SAAS;EACP,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,OAAO,EAAE,KAAK;;AAGhB,UAAU;EACR,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,MAAM",
+"sources": ["../scss/education.scss"],
+"names": [],
+"file": "education.css"
+}

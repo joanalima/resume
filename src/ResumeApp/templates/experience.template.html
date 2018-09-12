@@ -1,0 +1,27 @@
+<div class="row resume_section experience_section" id="section-experience">
+  <div class="section_title">
+    <h1>Experience</h1>
+    <hr class="pink">
+  </div>
+  <div class="section_content margin-120">
+    <md-content class="md-padding">
+      <md-tabs class="md-accent" md-selected="data.selectedIndex" md-align-tabs="top">
+        <md-tab ng-repeat="experience in experiences" id="{{experience.id}}">
+          <md-tab-label>{{experience.position}} @ {{experience.company}}</md-tab-label>
+          <md-tab-body>
+            <span class="exp_span">{{experience.company}}</span>
+            <a href="{{experience.company_link}}" target="_blank">{{experience.company_link}}</a>
+            <br>
+            <span class="exp_span">{{experience.timeline}}</span>
+            <div class="int_position" ng-repeat="internal_position in experience.internal_positions">
+              <span>{{internal_position.pos_name}}</span> ({{internal_position.timeline}})
+              <ul>
+                <li ng-repeat="description in internal_position.description">{{description}}</li>
+              </ul>
+            </div>
+          </md-tab-body>
+        </md-tab>
+      </md-tabs>
+    </md-content>
+  </div>
+</div>
