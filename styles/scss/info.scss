@@ -10,23 +10,26 @@
 }
 
 #info_myname{
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .info_style{
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .info_span{
   font-weight: 500;
+  font-size: 1rem;
 }
 
 #info_links{
   margin: 20px 0px;
-}
-.info_links{
-
-    color: $main_white !important;
-    font-size: 1.7rem;
-    font-weight: 500;
+  a{
+    margin: 0px 10px;
+    color: rgba(255, 255, 255, 0.32);
+  }
+  a:hover {
+    text-decoration: none;
+    color: rgb(204, 81, 103);
+  }
 }

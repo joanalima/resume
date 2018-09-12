@@ -1,12 +1,18 @@
 .certificates_section{
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+.certs-links-list{
+  list-style: none;
 }
 
 .certs_links{
   color: $main_white;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
+
 .certs_links:hover{
   color: black;
 }

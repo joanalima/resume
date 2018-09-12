@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$main_white".
-        on line 6 of scss/certificates.scss
+        on line 10 of scss/certificates.scss
 
-1: .certificates_section{
-2:   font-size: 1.2rem;
-3: }
-4: 
-5: .certs_links{
-6:   color: $main_white;
-7:   font-weight: 600;
-8:   font-size: 1.3rem;
-9: }
-10: .certs_links:hover{
-11:   color: black;
+5: .certs-links-list{
+6:   list-style: none;
+7: }
+8: 
+9: .certs_links{
+10:   color: $main_white;
+11:   font-weight: 600;
+12:   font-size: 1rem;
+13:   cursor: pointer;
+14: }
+15: 
 
 Backtrace:
-scss/certificates.scss:6
+scss/certificates.scss:10
 /Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -69,4 +69,4 @@ scss/certificates.scss:6
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main_white\".\A         on line 6 of scss/certificates.scss\A \A 1: .certificates_section{\A 2:   font-size: 1.2rem;\A 3: }\A 4: \A 5: .certs_links{\A 6:   color: $main_white;\A 7:   font-weight: 600;\A 8:   font-size: 1.3rem;\A 9: }\A 10: .certs_links:hover{\A 11:   color: black;"; }
+  content: "Error: Undefined variable: \"$main_white\".\A         on line 10 of scss/certificates.scss\A \A 5: .certs-links-list{\A 6:   list-style: none;\A 7: }\A 8: \A 9: .certs_links{\A 10:   color: $main_white;\A 11:   font-weight: 600;\A 12:   font-size: 1rem;\A 13:   cursor: pointer;\A 14: }\A 15: "; }

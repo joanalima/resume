@@ -1,20 +1,32 @@
-@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
 html, body {
-  font-family: "Saira Extra Condensed" !important;
+  font-family: "Roboto" !important;
   width: 100%; }
 
 body {
   padding-top: 56px; }
 
 nav {
-  background-color: #ffffff; }
+  background-color: #ffffff !important;
+  font-size: 15px; }
+
+.navbar-light .navbar-brand {
+  font-size: 2em; }
+
+.nav-link {
+  cursor: pointer; }
+
+.nav-link:hover {
+  color: #D88A98 !important; }
 
 .color-letter {
   color: #D88A98;
   font-weight: 600; }
 
 .nav-item a::first-letter {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #d88a98;
+  font-weight: 600; }
 
 .resume_section {
   padding-top: 35px;
@@ -24,7 +36,7 @@ nav {
 .pink_section {
   background-color: #D88A98;
   color: #ffffff;
-  font-weight: 300; }
+  font-weight: 400; }
 
 .section_title {
   width: 100%;
@@ -66,7 +78,9 @@ footer {
   text-align: center;
   color: #ffffff;
   background-color: #D88A98;
-  font-size: 1.4rem; }
+  font-size: 1.1rem; }
+  footer i {
+    font-size: 1.4rem; }
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -134,36 +148,38 @@ footer {
   display: block; }
 
 #info_myname {
-  font-size: 3rem; }
+  font-size: 2rem; }
 
 .info_style {
-  font-size: 1.3rem; }
+  font-size: 1rem; }
 
 .info_span {
-  font-weight: 500; }
+  font-weight: 500;
+  font-size: 1rem; }
 
 #info_links {
   margin: 20px 0px; }
-
-.info_links {
-  color: #ffffff !important;
-  font-size: 1.7rem;
-  font-weight: 500; }
+  #info_links a {
+    margin: 0px 10px;
+    color: rgba(255, 255, 255, 0.32); }
+  #info_links a:hover {
+    text-decoration: none;
+    color: #cc5167; }
 
 .about_section > div.section_content > p {
-  font-size: 1.2rem; }
+  font-size: 1rem; }
 
 .quote_section {
   display: block;
   margin-bottom: 0px !important;
-  font-size: 1.6em;
+  font-size: 1.1em;
   text-align: center; }
 
 .experience_section {
   background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url("../../media/images/experience_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 1.2em; }
+  font-size: 1em; }
 
 md-tabs {
   overflow: visible;
@@ -208,7 +224,7 @@ md-tab-content {
   font-weight: 600; }
 
 .education_section {
-  font-size: 1.2rem; }
+  font-size: 1rem; }
 
 #educ_img {
   margin-left: auto;
@@ -216,16 +232,19 @@ md-tab-content {
   display: block; }
 
 .educ-span {
-  font-weight: 600;
-  font-size: 1.3rem; }
+  font-weight: 600; }
 
 .certificates_section {
-  font-size: 1.2rem; }
+  font-size: 1rem; }
+
+.certs-links-list {
+  list-style: none; }
 
 .certs_links {
   color: #ffffff;
   font-weight: 600;
-  font-size: 1.3rem; }
+  font-size: 1rem;
+  cursor: pointer; }
 
 .certs_links:hover {
   color: black; }
@@ -250,8 +269,7 @@ ul.no-style {
   list-style: none; }
 
 .recom-section {
-  text-align: center;
-  font-size: 1.2rem; }
+  font-size: 1rem; }
 
 .rec-info {
   font-weight: 600; }

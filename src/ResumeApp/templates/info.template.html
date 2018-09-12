@@ -17,10 +17,26 @@
       </div>
     </div>
     <div class="row">
-      <div id="info_links" class="col-12 info_style">
-        <span class="info_span">Check my </span>
-        <span><a href="{{info.links.linkedin}}" target="_blank" class="info_links">Linkedin</a></span> &
-        <span><a href="{{info.links.portfolio}}" target="_blank" class="info_links">Portfolio</a></span>
+      <div id="info_links" class="col-12">
+        <span class="info_span">Links</span>
+        <a href="{{info.links.linkedin}}" target="_blank">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        <a href="{{info.links.portfolio}}" target="_blank">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        <a href="{{info.links.resume}}" target="_blank">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fas fa-download fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
       </div>
     </div>
   </div>
