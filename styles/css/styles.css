@@ -272,7 +272,8 @@ ul.no-style {
   list-style: none; }
 
 .recom-section {
-  font-size: 1rem; }
+  font-size: 1rem;
+  text-align: center; }
 
 .rec-info {
   font-weight: 600; }

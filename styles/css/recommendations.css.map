@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,cAAc;EACZ,SAAS,EAAE,IAAI;;AAGjB,SAAS;EACP,WAAW,EAAE,GAAG",
+"mappings": "AAAA,cAAc;EACZ,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;;AAGpB,SAAS;EACP,WAAW,EAAE,GAAG",
 "sources": ["../scss/recommendations.scss"],
 "names": [],
 "file": "recommendations.css"
