@@ -1,28 +1,72 @@
-#info_myphoto {
-  max-width: 100%;
-  max-height: 195px;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block; }
+/*
+Error: Undefined variable: "$main_pink".
+        on line 47 of scss/info.scss
 
-#info_myname {
-  font-size: 2rem; }
+42: }
+43: 
+44: .tooltip .tooltiptext {
+45:     visibility: hidden;
+46:     width: 120px;
+47:     background-color: $main_pink;
+48:     color: #fff;
+49:     text-align: center;
+50:     border-radius: 6px;
+51:     padding: 5px 0;
+52: 
 
-.info_style {
-  font-size: 1rem; }
-
-.info_span {
-  font-weight: 500;
-  font-size: 1rem; }
-
-#info_links {
-  margin: 20px 0px; }
-  #info_links a {
-    margin: 0px 10px;
-    color: rgba(255, 255, 255, 0.32); }
-  #info_links a:hover {
-    text-decoration: none;
-    color: #cc5167; }
-
-/*# sourceMappingURL=info.css.map */
+Backtrace:
+scss/info.scss:47
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Users/admin/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$main_pink\".\A         on line 47 of scss/info.scss\A \A 42: }\A 43: \A 44: .tooltip .tooltiptext {\A 45:     visibility: hidden;\A 46:     width: 120px;\A 47:     background-color: $main_pink;\A 48:     color: #fff;\A 49:     text-align: center;\A 50:     border-radius: 6px;\A 51:     padding: 5px 0;\A 52: "; }

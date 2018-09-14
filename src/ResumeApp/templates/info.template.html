@@ -19,36 +19,52 @@
     <div class="row">
       <div id="info_links" class="col-12">
         <span class="info_span">Links</span>
-        <a href="{{info.links.linkedin}}" target="_blank">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-        <a href="{{info.links.portfolio}}" target="_blank">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-        <a href="{{info.links.github}}" target="_blank" data-toggle="tooltip" title="Hooray!">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-        <a href="{{info.links.codepen}}" target="_blank">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fab fa-codepen fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-        <a href="{{info.links.resume}}" target="_blank">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fas fa-download fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
+        <div class="tooltip">
+          <a href="{{info.links.linkedin}}" target="_blank">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          <span class="tooltiptext">Linkedin</span>
+        </div>
+
+        <div class="tooltip">
+          <a href="{{info.links.portfolio}}" target="_blank" class="tooltip">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          <span class="tooltiptext">Porfolio</span>
+        </div>
+        <div class="tooltip">
+          <a href="{{info.links.github}}" target="_blank" data-toggle="tooltip" title="Hooray!">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          <span class="tooltiptext">GitHub</span>
+        </div>
+        <div class="tooltip">
+          <a href="{{info.links.codepen}}" target="_blank">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fab fa-codepen fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          <span class="tooltiptext">CodePen</span>
+        </div>
+        <div class="tooltip">
+          <a href="{{info.links.resume}}" target="_blank">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fas fa-download fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+          <span class="tooltiptext">Download CV</span>
+        </div>
       </div>
     </div>
   </div>
