@@ -69,6 +69,13 @@
    },
    "certificates_section":[
       {
+        "name":"Single Page Web Applications with AngularJS",
+        "offered_by":"Universidade Johns Hopkins",
+        "place":"Coursera",
+        "issued":"September 19, 2018",
+        "cert_link":"https://www.coursera.org/account/accomplishments/verify/Y2938GUCRJ48"
+      },
+      {
          "name":"Rails with Active Record and Action Pack",
          "offered_by":"Universidade Johns Hopkins",
          "place":"Coursera",
