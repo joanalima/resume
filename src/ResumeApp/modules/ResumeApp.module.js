@@ -2,7 +2,6 @@
   'use strict';
 
   angular.module('ResumeApp',['ngMaterial', 'ngMessages'])
-  .config('ResumeAppConfig'),
   .constant('ApiPath', 'https://api.myjson.com/bins/osv8g')
   .controller('ResumeAppController', ResumeAppController)
   .controller('RecommendationsController', RecommendationsController)
@@ -28,11 +27,6 @@
         };
       }
     ]);
-
-  ResumeAppConfig.$inject = ['$urlRouterProvider'];
-  function ResumeAppConfig($urlRouterProvider) {
-    $urlRouterProvider.otherwise('/');
-  }
 
   ResumeAppController.$inject = ['$scope','$http', 'ApiPath'];
   function ResumeAppController($scope, $http, ApiPath) {
