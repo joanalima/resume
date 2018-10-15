@@ -3,14 +3,16 @@
       "first_name":"Joana",
       "last_name":"Lima",
       "dob":"13 Feb 1991",
+      "nationality":"Portuguese",
       "residence":"Zug, Switzerland",
       "languages":"Portuguese & English",
       "email":"joanaduartelima @gmail.com",
       "phone_number":"+41799354273",
+      "permit":"B",
       "links":{
         "linkedin":"https://www.linkedin.com/in/joana-lima-2b5aa187/",
         "portfolio":"https://joanalima.github.io/portfolio/",
-        "resume":"/media/docs/cv_pdf/JoanaDuarteLima_CV.pdf",
+        "resume":"https://joanalima.github.io/resume/media/docs/cv_pdf/JoanaDuarteLima_CV.pdf",
         "github":"https://github.com/joanalima",
         "codepen":"https://codepen.io/joanalimareis/"
       }
